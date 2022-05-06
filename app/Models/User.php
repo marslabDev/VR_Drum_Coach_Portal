@@ -4,7 +4,7 @@ namespace App\Models;
 
 use \DateTimeInterface;
 use Carbon\Carbon;
-use Illuminate\Support\Facades\Hash;
+use Hash;
 use Illuminate\Auth\Notifications\ResetPassword;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -17,8 +17,6 @@ class User extends Authenticatable
     use SoftDeletes;
     use Notifiable;
     use HasFactory;
-
-    protected $connection = 'sso_db';
 
     public $table = 'users';
 

@@ -175,4 +175,8 @@ return [
         'title'          => 'Attendence Management',
         'title_singular' => 'Attendence Management',
     ],
+    'testing' => [
+        'title'          => 'Testing',
+        'title_singular' => 'Testing',
+    ],
 ];

@@ -12,8 +12,6 @@ class Role extends Model
     use SoftDeletes;
     use HasFactory;
 
-    protected $connection = 'sso_db';
-
     public $table = 'roles';
 
     protected $dates = [
