@@ -17,8 +17,6 @@ class Attendence extends Model
     use Auditable;
     use HasFactory;
 
-    protected $connection = 'sso_db';
-
     public $table = 'attendences';
 
     public static $searchable = [

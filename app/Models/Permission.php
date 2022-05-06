@@ -12,8 +12,6 @@ class Permission extends Model
     use SoftDeletes;
     use HasFactory;
 
-    protected $connection = 'sso_db';
-
     public $table = 'permissions';
 
     protected $dates = [

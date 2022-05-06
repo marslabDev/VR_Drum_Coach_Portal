@@ -16,12 +16,6 @@
                     @endif
 
                     You are logged in!
-
-                    <br>
-                    {{ auth()->user() }}
-
-                    <br>
-                    {{ auth()->user()->roles }}
                 </div>
             </div>
         </div>
